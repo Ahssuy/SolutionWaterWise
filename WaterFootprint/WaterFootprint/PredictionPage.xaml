@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WaterFootprint.PredictionPage"
+             Title="Dashboard"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="Enter Sensor Values" FontSize="20" />
+
+            <Entry x:Name="Sensor1" Placeholder="Sensor 1" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor2" Placeholder="Sensor 2" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor3" Placeholder="Sensor 3" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor4" Placeholder="Sensor 4" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor5" Placeholder="Sensor 5" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor6" Placeholder="Sensor 6" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor7" Placeholder="Sensor 7" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor8" Placeholder="Sensor 8" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor9" Placeholder="Sensor 9" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor10" Placeholder="Sensor 10" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor11" Placeholder="Sensor 11" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor12" Placeholder="Sensor 12" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor13" Placeholder="Sensor 13" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor14" Placeholder="Sensor 14" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor15" Placeholder="Sensor 15" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor16" Placeholder="Sensor 16" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor17" Placeholder="Sensor 17" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor18" Placeholder="Sensor 18" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor19" Placeholder="Sensor 19" Keyboard="Numeric"/>
+            <Entry x:Name="Sensor20" Placeholder="Sensor 20" Keyboard="Numeric"/>
+
+            <Button Text="Predict" Clicked="OnPredictClicked"/>
+            <Label x:Name="ResultLabel" Text="" FontSize="16"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

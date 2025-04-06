@@ -1,0 +1,22 @@
+# Build folders
+bin/
+obj/
+
+# User secrets
+**/Resources/service_account.json
+
+# Android & iOS specific
+*.apk
+*.ap_
+*.class
+*.dex
+*.so
+*.o
+*.d
+*.keystore
+
+# Other
+*.user
+*.suo
+*.DS_Store
+.vs/
